@@ -1,0 +1,133 @@
+/*navigation section*/
+.container__nav {
+    margin: 30px;
+}
+
+/*ul lists*/
+.ul__lists {
+    display: flex;
+    justify-content: right;
+    margin: 0px;
+}
+
+/*lists*/
+.lists__li {
+    list-style: none;
+    padding: 10px;
+}
+
+/* header section  */
+.header {
+    margin: 0px;
+    padding: 20px;
+}
+
+/* content  */
+section {
+    background-color: #eeeeee;
+}
+
+.container__section {
+    padding: 40px 20px;
+    width: 30%;
+}
+
+/*  box */
+.container__box {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.box__1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.box__display {
+    height: 170px;
+    background-color: #eeeeee;
+}
+
+/* aside section  */
+aside {
+    background-color: #eeeeee;
+}
+
+.container__aside {
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.container__aside h1 {
+    margin-right: 10px;
+}
+
+.container__aside input {
+    margin: 15px 5px 15px 10px;
+    height: 30px;
+    width: 300px;
+}
+
+.container__aside button {
+    margin: 15px 10px 15px 5px;
+    height: 36px;
+    width: 180px;
+    background-color: #288acf;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* footer section  */
+.container__footer {
+    padding: 40px;
+}
+
+.footer__align {
+    float: right;
+    right: 80px;
+}
+
+/* media query */
+@media only screen and (max-width: 800px) {
+    .container__section {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container__section {
+        width: 70%;
+    }
+
+    .container__box {
+        display: block;
+    }
+
+    .container__aside {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 453px) {
+    .container__section {
+        width: 90%;
+        padding: 20px 10px 20px 10px;
+        text-align: center;
+    }
+
+    .container__aside input {
+        margin: 0px;
+        height: 30px;
+        width: 200px;
+    }
+
+    .container__aside button {
+        margin: 15px 0px 15px 0px;
+        height: 30px;
+        width: 120px;
+        background-color: #288acf;
+        color: white;
+        font-size: 1em;
+    }
+}
