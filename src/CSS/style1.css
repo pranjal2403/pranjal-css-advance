@@ -16,6 +16,10 @@
     padding: 10px;
 }
 
+li a {
+    color: blue;
+}
+
 /* header section  */
 .header {
     margin: 0px;
@@ -43,10 +47,16 @@ section {
     text-align: center;
 }
 
+.box__2 {
+    color: black;
+    text-decoration: underline;
+}
+
 .box__display {
     height: 170px;
     background-color: #eeeeee;
 }
+
 
 /* aside section  */
 aside {
@@ -73,9 +83,10 @@ aside {
     margin: 15px 10px 15px 5px;
     height: 36px;
     width: 180px;
-    background-color: #288acf;
+    background-color: rgb(60, 143, 211);
     color: white;
     font-size: 1.2em;
+    border: 0px;
 }
 
 /* footer section  */
@@ -129,5 +140,6 @@ aside {
         background-color: #288acf;
         color: white;
         font-size: 1em;
+
     }
 }
